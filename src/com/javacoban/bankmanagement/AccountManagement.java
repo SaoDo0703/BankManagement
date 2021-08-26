@@ -14,13 +14,16 @@ public class AccountManagement {
     private ArrayList<Account> accountList = new ArrayList<>();
 
     public ArrayList<Account> getList() {
+
         return accountList;
     }
     public void addAccount(Account account) {
+
         accountList.add(account);
     }
 
     public void removeAccount(Account account) {
+
         accountList.remove(account);
     }
 

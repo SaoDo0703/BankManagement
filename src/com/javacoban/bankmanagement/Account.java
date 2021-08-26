@@ -11,7 +11,6 @@ package com.javacoban.bankmanagement;
 //        toString: String
 //
 
-
 public class Account {
     public static final float INTEREST = 0.035f;
 
@@ -33,14 +32,17 @@ public class Account {
         this.amount = 50000;
     }
     public void addMoney(double amountMoney) {
+
         this.amount  += amountMoney;
     }
 
     public void withdraw(double amountWithdraw) {
+
         this.amount -= amountWithdraw;
     }
 
     public void expires() {
+
         this.amount = this.amount + this.amount * INTEREST;
     }
 
@@ -51,26 +53,32 @@ public class Account {
     }
 
     public long getID() {
+
         return ID;
     }
 
     public void setID(long ID) {
+
         this.ID = ID;
     }
 
     public String getAccountName() {
+
         return accountName;
     }
 
     public void setAccountName(String accountName) {
+
         this.accountName = accountName;
     }
 
     public double getAmount() {
+
         return amount;
     }
 
     public void setAmount(double amount) {
+
         this.amount = amount;
     }
 
